@@ -1,0 +1,26 @@
+{
+  "homepage": "https://JakBel.github.io/todo-list",
+  "dependencies": {
+    "gh-pages": "^3.2.3",
+    "node-modules": "^0.0.1"
+  },
+  "name": "todo-list",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "predeploy": "npm run build",
+	  "deploy": "gh-pages -d build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JakBel/todo-list.git"
+  },
+  "author": "Jakub Bełtowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JakBel/todo-list/issues"
+  }
+}
